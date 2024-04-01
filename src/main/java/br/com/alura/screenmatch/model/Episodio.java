@@ -53,6 +53,14 @@ public class Episodio {
         this.numero = numero;
     }
 
+    public Double getAvaliacao() {
+        return avaliacao;
+    }
+
+    public void setAvaliacao(Double avaliacao) {
+        this.avaliacao = avaliacao;
+    }
+
     public LocalDate getDataLancamento() {
         return dataLancamento;
     }
